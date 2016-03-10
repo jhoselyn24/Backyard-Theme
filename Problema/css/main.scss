@@ -1,0 +1,27 @@
+.navbar-brand {
+	padding: 7px;
+	img {
+		width: 50%;
+	}
+}
+.hero-img {
+	background-image: url(../images/1920x665-1.jpg);
+	margin: 50px 0 85px;
+    background-size: cover;
+    padding: 140px 0;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    p {
+       margin: 28px 0 20px;
+       line-height: 1.7;
+    }
+    i{
+    	margin: 14px;
+    }
+}
+
+
