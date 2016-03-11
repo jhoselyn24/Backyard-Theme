@@ -1,19 +1,22 @@
+body {
+  font-family: 'Lato'; }
+
 .navbar-brand {
   padding: 7px; }
   .navbar-brand img {
     width: 50%; }
 
-.button-1, .hero-img .button-1 {
-  color: white;
-  border: 1px solid #3BAFF8;
-  background: #3BAFF8;
-  border-radius: 17px;
-  padding: 8px 15px; }
-
-.button-2, .hero-img .button-2, .box-smart .btn {
+.button, .hero-img button, .box-smart button {
   color: #3BAFF8;
   border: 1px solid;
   background: none;
+  border-radius: 17px;
+  padding: 8px 15px; }
+
+.button:hover, .hero-img button:hover, .box-smart button:hover {
+  color: white;
+  border: 1px solid #3BAFF8;
+  background: #3BAFF8;
   border-radius: 17px;
   padding: 8px 15px; }
 
@@ -40,9 +43,7 @@
     margin: 14px; }
 
 .box-smart {
-  border-top: 1px solid gray;
-  border-bottom: 0.5px solid gray;
-  padding: 50px 0 50px;
+  padding: 50px 0 80px;
   color: #808080; }
   .box-smart img {
     width: 100%; }
@@ -51,7 +52,7 @@
 
 .ideas {
   color: gray;
-  margin: 50px 0 50px;
+  margin: 0 0 50px;
   padding: 50px 0 50px;
   background-color: #F6F6F6; }
   .ideas .text-align {
@@ -59,8 +60,7 @@
   .ideas .row {
     margin-top: 50px; }
   .ideas img {
-    width: 90%;
-    vertical-align: 20px; }
+    width: 100%; }
 
 footer {
   text-align: center;
@@ -69,6 +69,12 @@ footer {
     border-radius: 100%;
     color: #3BAFF8;
     border: 1px solid;
+    padding: 10px 12px; }
+  footer a:hover {
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #3BAFF8;
+    background-color: #3BAFF8;
     padding: 10px 12px; }
   footer p {
     margin-top: 30px; }
